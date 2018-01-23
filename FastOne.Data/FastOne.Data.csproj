@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\FastOne.DomainClasses\FastOne.DomainClasses.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="IFastOneRepos\" />
+	  <Folder Include="FastOneRepos\" />
+	</ItemGroup>
+</Project>
